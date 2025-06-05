@@ -1,0 +1,28 @@
+{
+  "name": "IP5108",
+  "version": "0.0.1",
+  "description": "IP5108 Library for ESP32",
+  "keywords": "IP5108",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neophack/IP5108.git"
+  },
+  "authors":
+  {
+    "name": "neophack",
+    "maintainer": true
+  },
+  "license": "LGPL-3.0",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "libretiny"
+  ],
+  "export": {
+    "include": [
+      "src",
+      "library.json",
+      "library.properties"
+    ]
+  }
+}
